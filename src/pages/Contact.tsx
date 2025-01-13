@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { WhatsappIcon } from "lucide-react";
+import { MessageCircle } from "lucide-react";
 
 const Contact = () => {
   const whatsappNumber = "+506 6237 3779";
@@ -19,7 +19,7 @@ const Contact = () => {
             className="bg-green-600 hover:bg-green-700 text-white inline-flex items-center space-x-2"
           >
             <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
-              <WhatsappIcon className="h-5 w-5 mr-2" />
+              <MessageCircle className="h-5 w-5 mr-2" />
               Contact via WhatsApp
             </a>
           </Button>

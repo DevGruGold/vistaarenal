@@ -1,4 +1,4 @@
-import { WhatsappIcon } from "lucide-react";
+import { MessageCircle } from "lucide-react";
 
 export const Footer = () => {
   const whatsappNumber = "+506 6237 3779";
@@ -30,7 +30,7 @@ export const Footer = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-2 text-white hover:text-green-400 transition-colors duration-200"
             >
-              <WhatsappIcon className="h-5 w-5" />
+              <MessageCircle className="h-5 w-5" />
               <span>{whatsappNumber}</span>
             </a>
           </div>

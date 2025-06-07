@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -33,17 +34,35 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
   }
 }
 
-.hero-slide {
-  @apply absolute inset-0 w-full h-full transition-opacity duration-1000;
-}
+@layer utilities {
+  .hero-slide {
+    @apply absolute inset-0 w-full h-full transition-opacity duration-1000 ease-in-out;
+  }
 
-.nav-link {
-  @apply hover:text-primary transition-colors duration-200;
-}
+  .nav-link {
+    @apply hover:text-primary transition-all duration-300;
+  }
 
-.footer-link {
-  @apply hover:text-primary transition-colors duration-200;
+  .footer-link {
+    @apply hover:text-primary transition-colors duration-200;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-fade-in {
+    animation: fade-in 0.8s ease-out forwards;
+  }
 }

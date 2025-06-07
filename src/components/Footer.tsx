@@ -10,10 +10,13 @@ export const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Lake Arenal Paradise</h3>
+            <h3 className="text-xl font-bold mb-4">Vista Arenal</h3>
             <p className="text-gray-300">
               Premium lakefront investment property in La Fortuna, Costa Rica. 
-              Four rental units with stunning views and proven income potential.
+              Four rental units with stunning Lake Arenal views and proven income potential.
+            </p>
+            <p className="text-lg font-semibold text-green-400 mt-3">
+              Listed at $500,000 USD
             </p>
           </div>
           <div>
@@ -42,7 +45,7 @@ export const Footer = () => {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Lake Arenal Paradise Property. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Vista Arenal Property. All rights reserved.</p>
         </div>
       </div>
     </footer>

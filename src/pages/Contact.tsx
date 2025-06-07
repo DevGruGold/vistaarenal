@@ -9,13 +9,16 @@ const Contact = () => {
   return (
     <div className="pt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h1 className="text-4xl font-bold mb-8">Property Inquiries & Viewing</h1>
+        <div className="text-center mb-8">
+          <h1 className="text-4xl font-bold mb-4">Vista Arenal - Property Inquiries</h1>
+          <p className="text-2xl font-semibold text-primary">$500,000 USD</p>
+        </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
             <h2 className="text-2xl font-bold mb-6">Schedule Your Property Visit</h2>
             <p className="text-lg mb-8">
-              Ready to see this exceptional Lake Arenal investment opportunity? 
+              Ready to see Vista Arenal, this exceptional Lake Arenal investment opportunity? 
               Contact us directly to schedule a private viewing or to receive 
               detailed property information, financial projections, and investment analysis.
             </p>
@@ -45,7 +48,7 @@ const Contact = () => {
                 <div>
                   <h3 className="font-semibold mb-2">Property Viewing</h3>
                   <p className="text-gray-600">
-                    Schedule an in-person or virtual tour of the property. 
+                    Schedule an in-person or virtual tour of Vista Arenal. 
                     We can arrange transportation from La Fortuna or San José.
                   </p>
                 </div>
@@ -57,7 +60,7 @@ const Contact = () => {
                   <h3 className="font-semibold mb-2">Investment Package</h3>
                   <p className="text-gray-600">
                     Request our complete investment package including financial 
-                    projections, rental history, and market analysis.
+                    projections, rental history, and market analysis for Vista Arenal.
                   </p>
                 </div>
               </div>
@@ -71,7 +74,7 @@ const Contact = () => {
               <div>
                 <h4 className="font-semibold mb-2 text-primary">Property Tour</h4>
                 <p className="text-gray-700">
-                  Complete walkthrough of all four units, grounds, and amenities. 
+                  Complete walkthrough of all four units at Vista Arenal, grounds, and amenities. 
                   See the stunning lake views and understand the rental potential.
                 </p>
               </div>
@@ -80,7 +83,7 @@ const Contact = () => {
                 <h4 className="font-semibold mb-2 text-primary">Financial Review</h4>
                 <p className="text-gray-700">
                   Detailed breakdown of current rental income, expenses, and 
-                  projected returns on your investment.
+                  projected returns on your $500,000 investment.
                 </p>
               </div>
               

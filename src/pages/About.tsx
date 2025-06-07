@@ -3,25 +3,31 @@ const About = () => {
   return (
     <div className="pt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h1 className="text-4xl font-bold mb-8">Property Overview</h1>
+        <div className="text-center mb-8">
+          <h1 className="text-4xl font-bold mb-4">Vista Arenal - Property Overview</h1>
+          <p className="text-2xl font-semibold text-primary">Listed at $500,000 USD</p>
+        </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-12">
           <div className="prose max-w-none">
             <h2 className="text-2xl font-bold mb-4 text-primary">Prime Lake Arenal Location</h2>
             <p className="text-lg mb-6">
-              Discover this exceptional investment opportunity in La Fortuna, Costa Rica. 
+              Discover Vista Arenal, an exceptional investment opportunity in La Fortuna, Costa Rica. 
               This unique property features four fully livable and rentable units with 
               breathtaking views of Lake Arenal, surrounded by lush tropical landscapes.
             </p>
             <p className="text-lg mb-6">
-              Located in one of Costa Rica's most sought-after destinations, this property 
+              Located in one of Costa Rica's most sought-after destinations, Vista Arenal 
               offers both immediate rental income potential and long-term appreciation in 
               a stable, growing market.
             </p>
           </div>
           
           <div className="bg-primary/5 p-6 rounded-lg">
-            <h3 className="text-xl font-bold mb-4">Key Investment Highlights</h3>
+            <h3 className="text-xl font-bold mb-4">Investment Highlights</h3>
+            <div className="mb-4 p-3 bg-primary/10 rounded-lg">
+              <p className="text-lg font-semibold text-primary">Asking Price: $500,000 USD</p>
+            </div>
             <ul className="space-y-3">
               <li className="flex items-start">
                 <span className="text-primary mr-2">•</span>

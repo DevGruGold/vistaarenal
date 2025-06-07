@@ -30,7 +30,7 @@ export const Hero = () => {
         >
           <img
             src={src}
-            alt={`Lake Arenal property view ${index + 1}`}
+            alt={`Vista Arenal property view ${index + 1}`}
             className="object-cover w-full h-full"
             loading={index === 0 ? "eager" : "lazy"}
           />
@@ -40,11 +40,11 @@ export const Hero = () => {
         <div className="container mx-auto px-4 h-full flex items-center">
           <div className="text-white max-w-3xl mt-16 md:mt-0">
             <h1 className="text-4xl md:text-6xl font-bold mb-4 md:mb-6 animate-fade-in">
-              Paradise Investment on Lake Arenal
+              Vista Arenal - $500,000
             </h1>
             <p className="text-lg md:text-xl mb-6 md:mb-8 animate-fade-in opacity-90">
-              Unique lakefront property with 4 rentable units in La Fortuna, Costa Rica. 
-              Stunning views, proven rental income, and endless possibilities.
+              Exceptional lakefront property with 4 rentable units in La Fortuna, Costa Rica. 
+              Stunning Lake Arenal views, proven rental income, and endless possibilities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-in">
               <Button

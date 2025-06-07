@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 
 interface NavigationProps {
@@ -11,7 +12,7 @@ export const Navigation = ({ isMenuOpen }: NavigationProps) => {
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="text-xl font-bold text-primary">
-              Photo Tour Guide CR
+              Lake Arenal Paradise
             </Link>
           </div>
           <div className={`
@@ -19,9 +20,9 @@ export const Navigation = ({ isMenuOpen }: NavigationProps) => {
             ${isMenuOpen ? 'flex flex-col absolute top-16 right-0 bg-white/90 backdrop-blur-sm p-4 space-y-4 shadow-lg w-48 space-x-0' : 'hidden'}
           `}>
             <Link to="/" className="nav-link">Home</Link>
-            <Link to="/about" className="nav-link">About</Link>
-            <Link to="/services" className="nav-link">Services</Link>
-            <Link to="/contact" className="nav-link">Contact</Link>
+            <Link to="/about" className="nav-link">Property Overview</Link>
+            <Link to="/services" className="nav-link">Features & Units</Link>
+            <Link to="/contact" className="nav-link">Inquire</Link>
           </div>
         </div>
       </div>

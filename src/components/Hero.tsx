@@ -1,10 +1,11 @@
+
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 
 const images = [
-  "/photo-1472396961693-142e6e269027",  // Costa Rican deer in rainforest
-  "/photo-1501286353178-1ec881214838",  // Monkey in rainforest
-  "/photo-1485833077593-4278bba3f11f"   // Deer near trees
+  "/photo-1506744038136-46273834b3fb",  // Lake surrounded by trees
+  "/photo-1482938289607-e9573fc25ebb",  // River between mountains
+  "/photo-1518495973542-4542c06a5843"   // Sunlight through forest
 ];
 
 export const Hero = () => {
@@ -29,7 +30,7 @@ export const Hero = () => {
         >
           <img
             src={src}
-            alt={`Costa Rica wildlife ${index + 1}`}
+            alt={`Lake Arenal property view ${index + 1}`}
             className="object-cover w-full h-full"
             loading={index === 0 ? "eager" : "lazy"}
           />
@@ -37,19 +38,29 @@ export const Hero = () => {
       ))}
       <div className="absolute inset-0 bg-black/40">
         <div className="container mx-auto px-4 h-full flex items-center">
-          <div className="text-white max-w-2xl mt-16 md:mt-0">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 md:mb-6 animate-fade-in">
-              Capture the Beauty of Costa Rica
+          <div className="text-white max-w-3xl mt-16 md:mt-0">
+            <h1 className="text-4xl md:text-6xl font-bold mb-4 md:mb-6 animate-fade-in">
+              Paradise Investment on Lake Arenal
             </h1>
             <p className="text-lg md:text-xl mb-6 md:mb-8 animate-fade-in opacity-90">
-              Join our photography tours and discover the perfect shots in paradise
+              Unique lakefront property with 4 rentable units in La Fortuna, Costa Rica. 
+              Stunning views, proven rental income, and endless possibilities.
             </p>
-            <Button
-              asChild
-              className="bg-primary hover:bg-primary/90 text-white animate-fade-in"
-            >
-              <a href="/contact">Book Your Tour</a>
-            </Button>
+            <div className="flex flex-col sm:flex-row gap-4 animate-fade-in">
+              <Button
+                asChild
+                className="bg-primary hover:bg-primary/90 text-white"
+              >
+                <a href="/contact">Schedule Viewing</a>
+              </Button>
+              <Button
+                asChild
+                variant="outline"
+                className="bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20"
+              >
+                <a href="/about">View Property Details</a>
+              </Button>
+            </div>
           </div>
         </div>
       </div>
